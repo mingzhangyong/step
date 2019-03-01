@@ -35,9 +35,9 @@ public ResultInfo exportStationList(DeviceQueryParam param, int humanID) {
 		return dataExportor.exportByListData(dataList, "中转站信息导出列表", humanID);
 	}
 ```
+- 过程：通过sql查询到List<Map<String,Object>>类型数据，然后通过dataExportor导出excel文件
 
-
-具体的实现方式在==dataExportor.exportByListData(dataList, "中转站信息导出列表", humanID)==;
+具体的实现方式在                                            ==dataExportor.exportByListData(dataList, "中转站信息导出列表", humanID)==   ;
 	
 	
 	
