@@ -1,0 +1,5 @@
+-  idea进入项目结构 -- project structure
+- 选择modules , 选中对应的模块 
+- 右键  add --> hibernate --> 添加
+- idea左下角会出现一个persistence窗口， 选择hibernate.cfg.xml 
+- 右键  ， 选择最底下那个选项，选择数据库， 选择表， 即可
