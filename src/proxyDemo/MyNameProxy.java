@@ -20,7 +20,7 @@ public class MyNameProxy implements InvocationHandler {
             String realResult = invoke.toString();
 
             System.out.println(" realResult ==  " + realResult);
-            return realResult + " and proxy result = hhhhhhhhh ";
+            return  "  proxy result = hhhhhhhhh ";
         }else{
             return method.invoke(proxy, args);
         }
