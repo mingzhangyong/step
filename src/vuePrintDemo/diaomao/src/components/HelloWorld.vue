@@ -2,6 +2,7 @@
   <div  class="hello">
     <img id = "printContent" src="https://avatar.csdnimg.cn/0/0/2/1_pigwithbadguy.jpg">
     <button v-print="'#printContent'">hello word mao!</button>
+    <input v-model.number="msg"/>
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -90,7 +91,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 12341234
     }
   }
 }
