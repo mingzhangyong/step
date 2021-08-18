@@ -1,0 +1,54 @@
+{
+success: true,
+code: null,
+message: null,
+data: {
+list: [
+{
+counts: 2,
+pointTypeId: "1",
+imgTypeId: "1",
+styleTypeId: "1",
+pointTypeName: "定时投放点"
+},
+{
+counts: 0,
+pointTypeId: "2",
+imgTypeId: "2",
+styleTypeId: "2",
+pointTypeName: "误时投放点"
+},
+{
+counts: 0,
+pointTypeId: "3",
+imgTypeId: "3",
+styleTypeId: "3",
+pointTypeName: "大件垃圾投放点"
+},
+{
+counts: 0,
+pointTypeId: "4",
+imgTypeId: "4",
+styleTypeId: "4",
+pointTypeName: "宣传栏"
+},
+{
+counts: 0,
+pointTypeId: "5",
+imgTypeId: "5",
+styleTypeId: "5",
+pointTypeName: "公示牌"
+},
+{
+counts: 0,
+pointTypeId: "6",
+imgTypeId: "6",
+styleTypeId: "6",
+pointTypeName: "投放点（非小区）"
+}
+]
+},
+tipType: 1,
+strings: null,
+stackTrace: null
+}
