@@ -12,7 +12,7 @@ public class MainClass {
         int[] a = new int[]{4,5,6,7,0,1,2};
         System.out.println(searchMin.findMin(a)) ;*/
 
-       /* DeleteDuplicates.ListNode test1 = new DeleteDuplicates.ListNode(1);
+        /*DeleteDuplicates.ListNode test1 = new DeleteDuplicates.ListNode(1);
         DeleteDuplicates.ListNode test2 = new DeleteDuplicates.ListNode(1);
         DeleteDuplicates.ListNode test3 = new DeleteDuplicates.ListNode(3);
         DeleteDuplicates.ListNode test4 = new DeleteDuplicates.ListNode(3);
@@ -37,9 +37,22 @@ public class MainClass {
         int[] a = new int[]{1,3};
         System.out.println(searchMatrixTarget.searchMatrixTarget(a,3)) ;*/
 
-        DeleteRepeatElement deleteRepeatElement = new DeleteRepeatElement();
+        /*DeleteRepeatElement deleteRepeatElement = new DeleteRepeatElement();
         int[] a = new int[]{3,2,5,7,6,1,0,5,3,7,1};
-        System.out.println(GsonUtils.toJsonString(deleteRepeatElement.deleteRepeatElement(a)));
+        System.out.println(GsonUtils.toJsonString(deleteRepeatElement.deleteRepeatElement(a)));*/
 
+
+        /*int[] a = new int[]{0,0,0,0};
+        ThreeSum threeSum = new ThreeSum();
+        System.out.println(GsonUtils.toJsonString(threeSum.threeSum(a)));*/
+
+        /*String s = "bxj##tw";
+        String t = "bxo#j##tw";
+        BackspaceCompare backspaceCompare = new BackspaceCompare();
+        System.out.println(backspaceCompare.backspaceCompare(s,t));*/
+
+        MaxArea maxArea = new MaxArea();
+        int[] a = new int[]{1,8,6,2,5,4,8,3,7};
+        System.out.println(maxArea.maxArea2(a));
     }
 }
