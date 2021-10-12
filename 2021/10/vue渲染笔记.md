@@ -22,5 +22,9 @@
     <span v-once>这个将不会改变: {{ message }}</span>
     ```
   
-
+- **vue直接显示html**
+    - v-html
+    - ```js
+        <p>使用 v-html 指令: <span v-html="rawHtml"></span></p>
+      ```
 
