@@ -8,7 +8,7 @@
     -  ```js
         <div v-bind:id="rawId | formatId"></div>
         filters: {
-            capitalize: function (value) {
+            capitalize: function formatId (value) {
                 if (!value) return ''
                 value = value.toString()
                 return value.charAt(0).toUpperCase() + value.slice(1)
